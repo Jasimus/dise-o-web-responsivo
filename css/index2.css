@@ -1,0 +1,391 @@
+/*=============================================
+                      global
+=============================================*/
+
+*{
+
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	font-family: Quicksand;
+	box-sizing: border-box;
+}
+
+[class*="col-"]
+{
+	float: left;
+	/*border: 1px solid black;*/
+	padding: 10px;
+}
+
+.contenedor
+{
+	position: relative;
+	margin: auto;
+	width: 100%;
+	height: auto;
+}
+
+.fila
+{
+	position: relative;
+	margin: auto;
+	width: 100%;
+	height: auto;
+	clear: both;	
+	display: table;
+}
+
+header #logo
+{
+	font-family: 'Merienda One', cursive;
+	font-size: 40px;
+	text-align: center;
+	line-height: 60px;
+}
+
+#links
+{
+
+}
+
+#link
+{
+	padding-top: 0px;
+}
+
+header .enla img
+{
+	margin-top: 9px;
+}
+
+
+header .enla img#ig
+{
+	margin-left: 1px;
+}
+
+
+header .enla img#web
+{
+	margin-right: 1px;
+}
+
+
+header .enla p
+{
+	text-align: center;
+	width: 44px;
+	height: 44px;
+	border-radius: 100%;
+	margin-top: 10px;
+}
+
+
+
+#ig p
+{
+	background: #d4a;	
+}
+
+
+#you p
+{
+	padding-left: 1px;
+	background: #e21;	
+}
+
+
+#web p
+{
+	background: #8ae;	
+}
+
+nav ul li
+{
+	padding: 10px;
+	text-align: center;
+}
+
+
+nav ul
+{
+	padding: 0 10px;
+}
+
+nav ul li a
+{
+	margin: auto -6px;
+	padding: 8px;
+	display: block;
+	background:  #6ac;
+	font-family: 'Merienda One';
+	color: #cff;
+	line-height: 46px;
+}
+
+nav ul li a:hover
+{
+	background: #8ce;
+
+}
+
+nav ul li a:active
+{
+	background: #67b;
+
+}
+
+section figure 
+{
+	padding: 0px 10px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+section figure img 
+{
+	border-radius: 100%;
+}
+
+
+#columnas
+{
+	margin: 15 px 6px;
+}
+
+#columnas aside#left
+{
+	padding: 0px 15px;
+}
+
+#columnas ul li
+{
+	list-style: square;
+	list-style-image: url("../img/index/auris.png");
+	list-style-position: inside;
+	background: #9ab;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+#columnas ul li a
+{
+	color: black;
+}
+
+#columnas article
+{
+	padding: 0px 25px;
+}
+
+#columnas article h1
+{
+	font-family: 'Merienda One';
+	font-size: 36px;
+}
+
+#columnas article img
+{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#columnas article p
+{
+	font-family: 'Quicksand';
+}
+
+#columnas aside#right 
+{
+	padding: 5px 15px;
+	margin-top: 5px;
+}
+
+#columnas aside#right h1
+{
+	font-family: 'Quicksand';
+	font-size: 30px;
+	text-align: center;
+	background: #9ab;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+#columnas aside#right form input
+{
+	width: 100%;
+	padding: 10px;
+	margin-top: 7px;
+	text-align: center;
+	font-family:'Quicksand', cursive;
+} 
+
+#columnas aside#right form input#usuario
+{
+	background: url(../img/index/usuario.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: contain;
+	border: 1px solid black;
+	border-radius: 8%;
+} 
+
+#columnas aside#right form input#pass
+{
+	background: url(../img/index/password.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: contain;
+	background-position: 5px;
+	border: 1px solid black;
+	border-radius: 2%;
+} 
+
+#columnas aside#right form input#send
+{
+	background: #6a9;
+	border: none;
+} 
+
+#columnas aside#right form input#send:hover
+{
+	background: #8cb;
+} 
+
+
+#columnas aside#right form input#send:active
+{
+	background: #5ab;
+} 
+
+
+footer 
+{
+	margin: 0px;
+	padding: 20px 10px;
+	padding-right: 18px;
+} 
+
+
+footer div#footer 
+{
+	background: #457;
+	margin: 20px 5px;
+	text-align: center;
+	line-height: 56px;
+	color: #013;
+} 
+
+/*=============================================
+    pantalla de escritorio grande - large (lg)
+=============================================*/
+
+@media (min-width: 1200px)  
+{
+	.col-lg-12{width: 100%;}
+	.col-lg-11{width: 91.66666667%;}
+	.col-lg-10{width: 83.33333333%;}
+	.col-lg-9 {width: 75%;}
+	.col-lg-8 {width: 66.66666667%;}
+	.col-lg-7 {width: 58.33333333%;}
+	.col-lg-6 {width: 50%;}
+	.col-lg-5 {width: 41.66666667%;}
+	.col-lg-4 {width: 33.33333333%;}
+	.col-lg-3 {width: 25%;}
+	.col-lg-2 {width: 16.66666667%;}
+	.col-lg-1 {width: 8.33333333%;}
+	.col-lg-0 {display: none;}
+
+	#columnas article img
+	{
+		width: 40%;
+	}
+}
+
+
+/*=============================================
+    pantalla de escritorio mediana - medium (md)
+=============================================*/
+
+@media (max-width: 1199px) and (min-width: 992px)  
+{
+	.col-md-12{width: 100%;}
+	.col-md-11{width: 91.66666667%;}
+	.col-md-10{width: 83.33333333%;}
+	.col-md-9 {width: 75%;}
+	.col-md-8 {width: 66.66666667%;}
+	.col-md-7 {width: 58.33333333%;}
+	.col-md-6 {width: 50%;}
+	.col-md-5 {width: 41.66666667%;}
+	.col-md-4 {width: 33.33333333%;}
+	.col-md-3 {width: 25%;}
+	.col-md-2 {width: 16.66666667%;}
+	.col-md-1 {width: 8.33333333%;}
+	.col-md-0 {display: none;}
+
+	#columnas article img
+	{
+		width: 50%;
+	}
+}
+
+
+
+
+/*=============================================
+       pantalla de tablet - small (sm)
+=============================================*/
+
+@media (max-width: 991px) and (min-width: 768px)  
+{
+	.col-sm-12{width: 100%;}
+	.col-sm-11{width: 91.66666667%;}
+	.col-sm-10{width: 83.33333333%;}
+	.col-sm-9 {width: 75%;}
+	.col-sm-8 {width: 66.66666667%;}
+	.col-sm-7 {width: 58.33333333%;}
+	.col-sm-6 {width: 50%;}
+	.col-sm-5 {width: 41.66666667%;}
+	.col-sm-4 {width: 33.33333333%;}
+	.col-sm-3 {width: 25%;}
+	.col-sm-2 {width: 16.66666667%;}
+	.col-sm-1 {width: 8.33333333%;}
+	.col-sm-0 {display: none;}
+
+	#columnas article img
+	{
+		width: 100%;
+	}
+
+}
+
+
+/*=============================================
+       pantalla de teléfonos - extra small (xs)
+=============================================*/
+
+@media (max-width: 767px)  
+{
+	.col-xs-12{width: 100%;}
+	.col-xs-11{width: 91.66666667%;}
+	.col-xs-10{width: 83.33333333%;}
+	.col-xs-9 {width: 75%;}
+	.col-xs-8 {width: 66.66666667%;}
+	.col-xs-7 {width: 58.33333333%;}
+	.col-xs-6 {width: 50%;}
+	.col-xs-5 {width: 41.66666667%;}
+	.col-xs-4 {width: 33.33333333%;}
+	.col-xs-3 {width: 25%;}
+	.col-xs-2 {width: 16.66666667%;}
+	.col-xs-1 {width: 8.33333333%;}
+	.col-xs-0 {display: none;}
+
+	#columnas article img
+	{
+		width: 100%;
+	}
+}
+

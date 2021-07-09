@@ -1,0 +1,288 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-family: Quicksand;
+}
+
+header
+{
+	position: relative;
+	width: 1000px;
+	height: 120px;
+	margin: 20px auto;
+	}
+
+#logo
+{
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	width: 200px;
+	height: 60px;
+	font-family: 'Merienda One', cursive;
+	font-size: 40px;
+	text-align: center;
+	line-height: 60px;
+}
+
+.link
+{
+	position: absolute;
+	top: 35px;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 50px;
+}
+
+#ig 
+{
+	right: 150px;
+	background: #d4a ;
+}
+
+#ig img 
+{
+	margin: 12px;
+}
+
+
+#you
+{
+	right: 85px;
+	background: #e21;
+}
+
+#you img
+{
+	margin: 12px;
+}
+
+
+#web
+{
+	right: 20px;
+	background: #8ae;
+}
+
+#web img
+{
+	margin: 12px;
+}
+
+
+nav
+{
+	position: relative;
+	width: 1000px;
+	height: 46px;
+	margin: 20px auto;
+}
+
+.botones
+{
+	float: left;
+	width: 196px;
+	height: 46px;
+	background: #6ac;
+	margin: 0 2px;
+	font-family:'Merienda One', cursive; 
+	color: #cff;
+	text-align: center;
+	line-height: 46px;
+}
+
+.botones:hover
+{
+	background: #8ce;
+}
+
+.botones:active
+{
+	background: #67b;
+}
+
+#top
+{
+	position: relative;
+	width: 1000px;
+	height: 180px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+
+#top ul
+{
+	width: 1010px;
+	height: 180px;
+}
+
+
+#top ul li
+{
+	float: left;
+	width: 326px;
+	height: 180px;
+	margin: 0px 10px 0px 0px;
+}
+
+#top ul li img
+{
+	border-radius: 100%;
+}
+
+
+#top ul li h2
+{
+	font-family:'Quicksand', cursive;
+	margin: 10px;
+}
+
+
+#section
+{
+	position: relative;
+	width: 1000px;
+	height: 453px;
+	margin: 20px auto;
+}
+
+
+
+.side
+{
+	position: absolute;
+	height: 453px;
+}
+
+aside#left
+{
+	width: 230px;
+	margin: 0 0;
+}
+
+aside#left ul li
+{
+	list-style: square;
+	list-style-image: url("C:/Users/JUAN/Desktop/html5/img/index/auris.png");
+	list-style-position: inside;
+	background: #9ab;
+	padding: 10px;
+	margin: 5px 5px 0 0;
+}
+
+aside#left ul li a
+{
+	text-decoration: none;
+	color: black;
+}
+
+aside#right
+{
+	width: 230px;
+	margin-left: 5px;
+	left: 770px;
+
+}
+
+aside#right h1
+{
+	line-height: 50px;
+	text-align: center;
+	background: #9ab;
+	margin-bottom: 10px;
+
+}
+
+
+aside#right form input
+{
+	padding: 10px;
+	margin: 5px 0px;
+	text-align: center;
+	font-family:'Quicksand', cursive;
+	width: 170px;
+}
+
+aside#right form img
+{
+	float: left;
+	text-align: left;
+	opacity: .6;
+}
+
+aside#right label[for="contra"] img
+{
+	margin: 10px 13px 0 2px; 
+
+}
+
+aside#right label[for="usuario"] img
+{
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+aside#right input[type="submit"]
+{
+	padding: 10px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 600;
+	width: 230px;
+	background: #6a9;
+	border: 0px;
+}
+
+aside#right input[type="submit"]:hover
+{
+	background: #8cb;
+}
+
+aside#right input[type="submit"]:active
+{
+	background: #5ab;
+}
+
+article
+{
+	position: absolute;
+	width: 560px;
+	height: 453px;
+	left: 230px;
+}
+
+article h1
+{
+	font-family:'Merienda One', cursive; 
+	font-size: 40px;
+	margin-left: 5px;
+}
+
+article img
+{
+	float: left;
+	margin: 5px; 
+}
+
+
+article p
+{
+	font-size: 17px;
+	margin: 0px 30px;
+	text-align: justify;
+}
+
+footer
+{
+	width: 1000px;
+	height: 56px;
+	background: #457;
+	margin: 20px auto;
+	text-align: center;
+	line-height: 56px;
+	color:  #013;
+}
